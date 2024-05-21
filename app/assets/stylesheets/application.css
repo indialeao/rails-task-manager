@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+.container {
+  border: 2px solid black;
+  background-color: rgb(194, 194, 251);
+  margin-top: 10%;
+
+
+}
+
+.editTask {
+  color: black;
+}
+
+ul{
+  color: rgb(0, 0, 0);
+}
+

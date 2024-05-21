@@ -1,0 +1,25 @@
+
+
+  <ul class="editTask">
+    <%= form_with model: @task do |t| %>
+      <li>
+        <%= t.label :title %>
+      </li>
+      <li>
+        <%= t.text_field :title %>
+      </li>
+      <li>
+        <%= t.label :details %>
+      </li>
+      <li>
+        <%= t.text_field :details %>
+      </li>
+      <li>
+        <%= t.label :completed %>
+        <%= t.check_box :completed %>
+      </li>
+      <li>
+        <%= t.submit %>
+      </li>
+    <% end %>
+  </ul>
